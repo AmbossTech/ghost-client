@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ghost:
+    image: 'ghostclient:latest'
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    environment:
+      LND_NODE_SOCKET:
+      LND_NODE_MACAROON:
+      LND_NODE_CERT:

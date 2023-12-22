@@ -1,0 +1,5 @@
+.git
+.cache
+.env
+.dist
+node_modules
